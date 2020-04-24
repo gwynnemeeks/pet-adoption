@@ -1,3 +1,18 @@
 body {
     background-color: lightpink;
-}
+    font-family: cursive;
+};
+
+#pets {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+};
+
+.dino {
+    border: 3px dotted blueviolet;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+  };
+
