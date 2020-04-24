@@ -6,13 +6,47 @@ body {
 #pets {
     display: flex;
     flex-flow: row wrap;
+       
+}
+
+.pets {
     justify-content: center;
-};
-
-.dino {
-    border: 3px dotted blueviolet;
-    width: 300px;
+    border: solid 3px brown;
+    width: 400px;
     margin: 10px;
-    padding: 10px;
-  };
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    float: left;
+}
 
+img {
+    max-width: 300px;
+    max-height: 300px; 
+    width: auto;
+    height: auto;
+}
+nav {
+    background-color: brown;
+    font-size: 24px;
+    display: flex;
+  }
+  
+  nav p {
+    margin: 20px;
+  }
+  
+  nav a {
+    margin: 20px;
+    color: lightpink;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .section {
+    margin: 20px;
+    border: 3px solid #E31837;
+    padding: 20px;
+    height: 1000px;
+  }
+  
