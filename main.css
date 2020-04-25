@@ -6,12 +6,13 @@ body {
 #pets {
     display: flex;
     flex-flow: row wrap;
-       
+    justify-content: center;       
 }
 
 .pets {
-    justify-content: center;
-    border: solid 3px brown;
+    border: solid 4px brown;
+    border-radius: 10px;
+    box-shadow: 3px 3px palevioletred;
     width: 400px;
     margin: 10px;
     align-items: center;
@@ -26,29 +27,36 @@ img {
     width: auto;
     height: auto;
 }
-nav {
-    background-color: brown;
-    font-size: 24px;
-    display: flex;
-  }
-  
-  nav p {
-    margin: 20px;
-  }
-  
-  nav a {
-    margin: 20px;
-    color: lightpink;
-    text-decoration: none;
-    cursor: pointer;
-    margin: 5px 5px;
-    padding: 5px 5px;
-  }
-  
-  .section {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: lightpink;
+}
+li {
+  display: inline;
+}
+a {
+  display: inline-flex;
+  padding: 8px;
+  background-color: brown;
+  font-size: 22pt;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+   
+.section {
     margin: 20px;
     border: 3px solid brown;
     padding: 20px;
     height: 1000px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
   }
   

@@ -226,7 +226,7 @@ const pets = [
         domString += `<img src="${petsCollection[i].imageUrl}" alt="">`;
         domString += `<h3>${petsCollection[i].color}</h3>`;
         domString += `<p>${petsCollection[i].specialSkill}</p>`;
-        domString += `<h2>${petsCollection[i].type}</h2>`;
+        domString += `<h3>${petsCollection[i].type}</h3>`;
         domString += '</div>';
     }
     printToDom('#pets', domString);
