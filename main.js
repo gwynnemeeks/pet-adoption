@@ -234,8 +234,8 @@ const pets = [
 };
 
 const filterCards = (filterString) => {
-        
-};
+  pets.filter(pet => pet.type === filterString);
+  };
 
 const init = () => {
   buildPetCards(pets);
