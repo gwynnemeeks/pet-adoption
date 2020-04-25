@@ -232,8 +232,17 @@ const pets = [
     printToDom('#pets', domString);
     
 };
-const init = () => {
-    buildPetCards(pets);
+
+const filterCards = (filterString) => {
+        
 };
 
-init()
+const init = () => {
+  buildPetCards(pets);
+  document.querySelector("#dogs").addEventListener("click", filterCards("dog"));
+  document.querySelector("#cats").addEventListener("click", filterCards("cat"));
+  document.querySelector("#dinos").addEventListener("click", filterCards("dino"));
+};
+
+init();
+
