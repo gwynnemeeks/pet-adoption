@@ -233,16 +233,9 @@ const pets = [
     
 };
 
-const filterCards = (filterString) => {
-  pets.filter(pet => pet.type === filterString);
-  };
-
 const init = () => {
   buildPetCards(pets);
-  document.querySelector("#dogs").addEventListener("click", filterCards("dog"));
-  document.querySelector("#cats").addEventListener("click", filterCards("cat"));
-  document.querySelector("#dinos").addEventListener("click", filterCards("dino"));
-};
+ };
 
 init();
 
